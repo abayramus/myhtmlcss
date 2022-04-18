@@ -1,0 +1,73 @@
+h1{
+    color:red; 
+    font-size: 20px; 
+    font-family: cursive; 
+    background-color: yellow
+}
+h2{
+    color:#666d1e; 
+    font-size: 1.5em; 
+    text-align:center
+}
+h4{
+    color: gold;
+    font-size:45px;
+    font-family:courier;
+    background-color:lightblue;
+    text-align:right
+}
+.my-style{
+    color: gold;
+    font-size:45px;
+    font-family:courier;
+    background-color:lightblue;
+    text-align:right
+}
+#head-6{
+    color: purple;
+    background-color: lightpink;
+    font-size: medium;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    color: red;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    color: pink;
+    padding: 10px;
+}
+
+body {
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D1BAQGmyFIY3ZNplw/company-background_10000/0/1596152714244?e=2159024400&v=beta&t=dKaVV5hMBg2aH9s30b93_U4qEY2Yofxz0dj2s5mDJZQ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wiki{
+    width: 100%;
+    height: 500px;
+}
+
+table,td,th{
+    font-size: 50px;
+    border-style: solid;
+    border-color: red;
+    background-color: lightgrey;
+    border-spacing: 10px;
+}
+td{
+    border-color: purple;
+    color: green;
+}
+th{
+    background-color: darkgray;
+}
