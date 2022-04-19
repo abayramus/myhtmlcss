@@ -71,3 +71,6 @@ td{
 th{
     background-color: darkgray;
 }
+fieldset{
+    background-color: pink;
+}

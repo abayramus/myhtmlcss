@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>Signup Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
         <form>
             <fieldset>
                 <legend>Open an account</legend>
                 <label for="fullname">Full Name : </label> <br>
-                <input type="text" id="fullname"> <br>
+                <input type="text" id="fullname" placeholder="Enter your name"> <br>
                 <label>Username : </label> <br>
                 <input type="text"> <br>
                 <label>Password : </label> <br>
@@ -30,9 +32,49 @@
                 <input type="radio" name="gender">
                 <label for="">Female</label> <br>
                 <input type="radio" name="gender">
-                <label for="">Others</label> <br>
+                <label for="">Others</label> <br> <br>
+
+                <label for="date">Select Your Birthday</label> <br>
+                <input type="date"> <br>
+                <input type="time"> <br>
+                <input type="datetime-local"> <br>
+
+                <label for="country">Country:</label> <br>
+                <select name="" id="country" multiple size="3">
+                    <option value="germany">Germany</option>
+                    <option value="usa">USA</option>
+                    <option value="england">England</option>
+                    <option value="canada">Canada</option>
+                </select>
+                <br>
+
+                <label for="">Select your color:</label> <br>
+                <input type="color" name="" id=""> <br>
+
+                <label for="">Upload a file:</label> <br>
+                <input type="file"> <br>
+
+                <label for="">Description</label> <br>
+                <textarea 
+                cols="25" 
+                rows="10" 
+                placeholder="Type your suggessions"></textarea>
+
+                <br>
+
+                <input type="Submit" value="Submit!">
+
+                <br>
+
+                <button>Click me!</button>
 
             </fieldset>
+
+            
         </form>
+        <h1> Apple Logo </h1>
+        <i class="fa-brands fa-apple"></i>
+        <h1>Android logo</h1>
+        <i class="fa-brands fa-android"></i>
     </body>
 </html>
